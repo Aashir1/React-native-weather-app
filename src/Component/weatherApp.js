@@ -75,6 +75,7 @@ export default class WeatherApp extends Component {
                         value={this.state.city}
                         onSubmitEditing={this._onSubmit}
                         underlineColorAndroid='transparent'
+                        placeholderTextColor= "#fff"
                     />
                     <Icon style={styles.searchIcon} name="ios-search-outline" size={25} color="#fff" />
                 </View>
